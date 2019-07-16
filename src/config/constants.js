@@ -51,13 +51,14 @@ module.exports = function() {
 				'host' : process.env.DB_PRD_HOST,
 				'user' : process.env.DB_PRD_USER,
 				'password' : process.env.DB_PRD_PASS,
-				'database' : 'dellstore2'
+				'database' : 'postgres'
 			},
 			'development' : {
-				'host' : 'dellstore2.cgffdp2lclff.us-west-2.rds.amazonaws.com',
-				'user' : 'spidertutorial',
-				'password' : 'spidertutorial',
-				'database' : 'dellstore2'
+				'host' : 'stantest-postgresql.c3mzoji03zxf.ap-southeast-2.rds.amazonaws.com',
+				'user' : 'stantest',
+				'password' : 'mario54321',
+				'database' : 'postgres'
+
 			}
 		};
 	}
