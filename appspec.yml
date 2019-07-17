@@ -6,6 +6,8 @@ files:
 permissions:
   - object: /myapp/startApp.sh
     mode: 777
+  - object: /myapp/stopApp.sh
+    mode: 777
 hooks:
   ApplicationStart:
     - location: startApp.sh
