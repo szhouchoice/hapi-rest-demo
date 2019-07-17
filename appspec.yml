@@ -13,5 +13,5 @@ hooks:
     - location: startApp.sh
       timeout: 10
   ApplicationStop:
-    - location: startStop.sh
+    - location: stopApp.sh
       timeout: 10
